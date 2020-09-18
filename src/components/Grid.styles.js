@@ -3,9 +3,9 @@ import { createUseStyles } from 'react-jss';
 export default createUseStyles({
   grid: {
     display: 'grid',
-    gridTemplateRows: 'repeat(5, 1fr)',
+    gridTemplateRows: 'repeat(8, 1fr)',
     gridTemplateColumns: 'repeat(8, 1fr)',
-    width: '80vmin',
+    width: '50vmin',
     height: '50vmin',
     border: '2px solid black',
   },
