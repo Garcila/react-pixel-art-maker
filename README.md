@@ -24,7 +24,7 @@ With this tool, the goal of finishing the Astro Pi - Mission Zero project is mor
 
 Get it from Github at [Garcila](https://github.com/Garcila/react-pixel-art-maker) and make it yours 📘📙📕📗.
 
-Original version from the Coding Garden at [CJ's Coding Garden](<[react-pixel-art-maker](https://github.com/CodingGarden/react-pixel-art-maker)>)<span><img src="https://avatars0.githubusercontent.com/u/14241866?s=460&u=ae42593caf0d925c19f296880bc8f73e1d4c3b8c&v=4" style='height: 20px'></span>
+Original version from the Coding Garden at [CJ's Coding Garden](<[react-pixel-art-maker](https://github.com/CodingGarden/react-pixel-art-maker)>)
 
 ## Screenshots
 
