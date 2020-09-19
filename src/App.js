@@ -24,10 +24,6 @@ function App() {
     [cells]
   );
 
-  // const colorSwatchString = colorSwatch
-  //   .map((col, index) => `c${index} = ${hexToRGB(col)}`)
-  //   .join(' ');
-
   const convertToLetter = (col) => {
     const indexInSwatch = colorSwatch.findIndex((item) => item === col);
     return `c${indexInSwatch}`;
@@ -82,6 +78,5 @@ function App() {
     </div>
   );
 }
-// <p className={classes.chatString}>picture = [ {chatString} ]</p>
 
 export default App;
