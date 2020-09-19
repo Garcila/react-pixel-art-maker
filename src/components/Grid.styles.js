@@ -11,6 +11,7 @@ export default createUseStyles({
   },
   cell: {
     cursor: 'pointer',
+    borderRadius: '50%',
     border: '2px solid black',
     background: 'white',
     transition: 'all 200ms linear',

@@ -54,6 +54,12 @@ function App() {
     <div className={classes.app}>
       <ColorPicker currentColor={currentColor} onSetColor={setCurrentColor} />
       <div className={classes.colorSwatchContainer}>
+        <button
+          className={classes.clearButton}
+          onClick={() => setCells(initialCells)}
+        >
+          clear
+        </button>
         {colorSwatch.map((color, index) => (
           <div
             key={`${color}${index}`}
