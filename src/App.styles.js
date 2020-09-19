@@ -8,8 +8,8 @@ export default createUseStyles({
     height: '100%',
     justifyContent: 'center',
     alignItems: 'center',
-    fontFamily: 'sans-serif',
     backgroundColor: 'black',
+    fontFamily: 'monospace',
   },
   colorSwatchContainer: {
     display: 'flex',
@@ -27,16 +27,16 @@ export default createUseStyles({
     cursor: 'pointer',
     color: 'white',
   },
-  chatString: {
-    // maxWidth: '24ch',
-    fontFamily: 'monospace',
-    // wordWrap: 'break-word',
-    backgroundColor: 'white',
-  },
   chatSwatch: {
-    maxWidth: '50%',
-    fontFamily: 'monospace',
-    wordWrap: 'break-word',
+    fontSize: '.8rem',
+    color: '#555',
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'space-between',
     backgroundColor: 'white',
+    padding: '.5rem',
+  },
+  swatchContainer: {
+    margin: '0 0 4px 0',
   },
 });

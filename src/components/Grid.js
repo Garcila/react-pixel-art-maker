@@ -1,5 +1,3 @@
-/* eslint-disable jsx-a11y/click-events-have-key-events */
-/* eslint-disable jsx-a11y/no-static-element-interactions */
 import React from 'react';
 
 import useStyles from './Grid.styles';
@@ -36,7 +34,6 @@ const Grid = ({ currentColor, cells, setCells }) => {
     <div className={classes.grid}>
       {cells.map((cell, i) => (
         <div
-          // eslint-disable-next-line react/no-array-index-key
           key={i}
           style={{ background: cell.on ? cell.color : '#ffffff' }}
           className={classes.cell}
