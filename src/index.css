@@ -7,8 +7,7 @@
 body {
   width: 100vw;
   height: 100vh;
-  background-color: '#0f0f0f';
-  /* overflow: hidden; */
+  background-color: #0f0f0f;
 }
 
 #root {
